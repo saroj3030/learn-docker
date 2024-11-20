@@ -23,7 +23,7 @@ public class UserController {
 	
 	@GetMapping("/test")
 	public ResponseEntity<String> test() {
-		return new ResponseEntity<>("SUCCESS TEST", HttpStatus.OK);
+		return new ResponseEntity<>("SUCCESS TEST 1.0.1", HttpStatus.OK);
 	}
 
 }
